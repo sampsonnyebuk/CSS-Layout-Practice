@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.firstname {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.lastname {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.role {
+    display: flex;
+    flex-direction: row;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.lan {
+    margin-top:0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.agree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.submit {
+    align-items: center;
+}
